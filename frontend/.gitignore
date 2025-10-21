@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage / testing
+htmlcov/
+.tox/
+.pytest_cache/
+coverage.xml
+*.cover
+*.coverage
+
+# Local settings
+*.env
+.env
