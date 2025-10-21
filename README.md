@@ -1,4 +1,4 @@
-🍜 Hungry Panda 
+🍜🐼 Hungry Panda 
 ======================================
 
 Empowering startups to learn, build, fund, and grow.  
@@ -42,6 +42,7 @@ Make sure you have these installed:
 - Node.js v18+ and npm
 - Python 3.10+
 - Git
+- Tawilwind 3 only !!!
 
 
 🚀 Running the Project
