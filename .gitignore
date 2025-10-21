@@ -1,15 +1,83 @@
-# Node & Python combined ignores
+# ============================
+# 🍜 Hungry Panda Project
+# Combined Node (Vite + React) + Python (FastAPI)
+# ============================
+
+# --------------------------------
+# FRONTEND (Vite + React)
+# --------------------------------
 frontend/node_modules/
 frontend/dist/
-backend/venv/
-backend/__pycache__/
+frontend/.env*
+frontend/.DS_Store
+frontend/.vscode/
+frontend/.idea/
+frontend/*.log
 
-# System / editor files
+# Ignore dependency lock and cache files
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# Build / cache
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# --------------------------------
+# BACKEND (FastAPI + Python)
+# --------------------------------
+backend/__pycache__/
+backend/app/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/venv/
+backend/env/
+backend/.vscode/
+backend/.idea/
+backend/.DS_Store
+backend/.env*
+backend/*.db
+backend/*.sqlite3
+
+# Ignore Python build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+
+
+
+# --------------------------------
+# SYSTEM / EDITOR FILES
+# --------------------------------
 .DS_Store
 .vscode/
 .idea/
 *.log
+*.swp
+*.swo
 .env
+.env.*
 
-frontend/node_modules/
+# --------------------------------
+# MISC
+# --------------------------------
+__pycache__/
+*.tmp
+*.bak
+*.orig
+*~
 
+# --------------------------------
+# GIT / REPO FILES (Optional)
+# --------------------------------
+# Uncomment if needed
+# .github/
+# README.md
+# LICENSE
