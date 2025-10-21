@@ -14,23 +14,22 @@ Backend      | FastAPI (Python 3.10+)   | REST API that powers authentication, p
 Database     | Supabase (PostgreSQL)*   | Planned for future use (data storage, auth, file management).
 
 
-🗂️ Folder Structure
--------------------
-hungry-panda/
-│
-├── frontend/           # React app (Vite)
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend/            # FastAPI app
-│   ├── app/
-│   │   └── main.py
-│   ├── requirements.txt
-│   └── .gitignore
-│
-└── README.txt
+## 🗂️ Folder Structure
+
+📁 hungry-panda/  
+├── 📁 frontend/                 # React app (Vite)  
+│   ├── 📁 src/  
+│   ├── 📁 public/  
+│   ├── 📄 package.json  
+│   └── 📄 vite.config.js  
+│  
+├── 📁 backend/                  # FastAPI app  
+│   ├── 📁 app/  
+│   │   └── 📄 main.py  
+│   ├── 📄 requirements.txt  
+│   └── 📄 .gitignore  
+│  
+└── 📄 README.txt
 
 
 ⚙️ Getting Started
