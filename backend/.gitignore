@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local settings
+*.env
+.env
