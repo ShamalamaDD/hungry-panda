@@ -141,7 +141,7 @@ Add new Node package            | npm install <package>
 -----------------
 | Name             | Role                          |
 |------------------|-------------------------------|
-| Mitheel Ramdaw   |Project Co/Lead / Backend Development / DevOps |
+| Mitheel Ramdaw   |Project Co/Lead /  Backend Development / DevOps   |
 | Ryan Chitate     |Project Co/Lead /  Backend Development / DevOps   |
 | Mikhaar Ramdaw   | Full Stack Development         |
 | Mohammad Malik   | Full Stack Development         |
