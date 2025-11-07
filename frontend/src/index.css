@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+
+.bg-\[url\(\'frontend\/Background\.jpg\'\)\] {
+  @apply bg-cover bg-center h-screen;
+}
+
 .body {
   @apply bg-black text-white font-sans;
 }
@@ -27,9 +32,7 @@
   @apply pt-16;
 }
 
-.p {
-  @apply pt-8;
-}
+
 
 
 
