@@ -1,43 +1,48 @@
 <!doctype html>
 <html lang="en">
-  
-<head class="flex justify-end p-4">
+
+<header class="absolute top-0 left-0 w-full bg-white bg-opacity-10 backdrop-blur-md text-white z-50 h-20 ">
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/index.css"/>
     <title>Entrepreneurship Hub</title>
   
-    <button class="absolute top-4 right-4 bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition pr-">
+    <button class="absolute top-4 right-20 bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition">
              Join Now
    </button>
-  
-  </head>
 
-  <body class="h-screen bg-gradient-to-r from-black to-blue-950 mt-">
+   <div class="flex justify-between items-center max-w-6xl mx-auto">
+      <ul class="text-white text-align-center flex space-x-8 text-sm font-semibold uppercase tracking-wide">
+        <li><a href="#" class="display-block text-decoration-none text-transformation-none">Explore Startups</a></li>
+        <li><a href="#" class="display-block text-decoration-none text-transformation-none">Access Resources</a></li>
+        <li><a href="#" class="display-block text-decoration-none text-transformation-none">Contact</a></li>
+      </ul>
+   </div>
+  
+</head>
+
+  <body class="h-screen bg-gradient-to-r from-black to-blue-950 mt-20">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    
-   <h1 align="center" style="font-size: 46px; font-weight: bold; color: rgb(255, 255, 255); margin-top: -20px;">Welcome to the Entrepreneurship Hub</h1>
-    
+
+   <h1 align="center" style="font-size: 46px; font-weight: bold;  margin-top: 100px; background: linear-gradient(to right, #3b82f6, #9333ea, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Welcome to the Entrepreneurship Hub</h1>
+
     <h2 align="center" style="font-size: 28px; color: rgb(183, 183, 183);"><em>Empowering startups to grow, connect, and succeed.</em></h2>
 
-    <h3 class="mt-20 text-white text-center text-underline text-3xl bold">About Us</h3>
+    <h3 class="mt-20 text-white text-center text-underline text-3xl bold" style="background: linear-gradient(to right, #3b82f6, #9333ea, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">About Us</h3>
 
   <div class="pt-5 pr-5 pl-5 pb-5 border-white border-2 rounded-lg my-10 bg-gradient-to-r from-gray-800 to-gray-900 p-4 max-w-xl mx-auto">
     <p class="text-white text-center text-bold text-base text-1xl text-balance">Our mission is to empower startups by cultivating a dynamic ecosystem where innovation, collaboration, and growth converge.</br> We strive to connect visionary entrepreneurs with the resources, mentorship, and networks they need to transform bold ideas into thriving ventures. </br> Through strategic partnerships, community engagement, and tailored support, we aim to break down barriers, accelerate progress, and champion the next generation of changemakers.</p>
   </div>  
    
-   
-  <div align="center" space-between="20px" id="buttons-container" style="margin-top: 150px;">
-    <button class="explore-startups-btn" style="margin-top: 50px;">Explore Startups</button>
-    <button class="access-resources-btn" style="margin-top: 50px;">Access Resources</button>
-   </div>
+ </body>
+ 
+ <footer>
+          
+
+ </footer>
 
 
-
-  </body>
-
-
-
-  </html>
+</html>
