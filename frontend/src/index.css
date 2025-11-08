@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gradient-to-r from-black to-blue-950 text-white font-sans;
+}
+
+.join-now-btn {
+  @apply bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition;
+}
+
+.nav-link {
+  @apply text-sm font-semibold uppercase tracking-wide hover:text-pink-400;
+}
