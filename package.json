@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ShamalamaDD/hungry-panda#readme",
   "dependencies": {
+    "@toolpad/core": "^0.16.0",
     "baseline-browser-mapping": "^2.8.25",
     "browserslist": "^4.27.0",
     "caniuse-lite": "^1.0.30001753",

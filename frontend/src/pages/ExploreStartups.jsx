@@ -1,7 +1,11 @@
-
+import Cards from '../components/Cards.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 export default function ExploreStartups() { 
     return (
-      <h1 className="text-4xl font-bold mb-8">Explore Startups</h1>
+     <> 
+      <Navbar />
+      <Cards />
+     </>
     );
 }

@@ -24,7 +24,9 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <button className="join-now-btn">Join Now</button>
+             <button className="join-now-btn">
+              <Link to="/join">Join Now</Link>
+            </button>
       </div>
     </header>
   );

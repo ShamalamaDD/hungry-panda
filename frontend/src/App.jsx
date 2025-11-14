@@ -10,6 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<ExploreStartups />} />
+        <Route path="/join-now" element={<JoinNow />}/>
       </Routes>
     </Router>
   );
